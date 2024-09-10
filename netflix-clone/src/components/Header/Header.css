@@ -1,0 +1,70 @@
+ /* Container for the entire header */
+.header_outer_container {
+    width: 100%;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1;
+    padding-left: 60px;
+    padding-right: 25px;
+    cursor: pointer;
+    height: 15vh;
+   /* background-color: transparent;*/
+
+}
+
+/* Container for header elements */
+  .header_container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+} 
+
+/* Style for the left section of the header */
+.header_left ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; 
+  align-items: center;
+}
+
+.header_left li {
+  margin-right: 20px;
+  color: white;
+  font-size: 16px; 
+}
+
+/* Remove margin for the last item */
+/*.header_left li:last-child {
+  margin-right: 0;
+}
+
+/* Style for the right section of the header */
+.header_right ul {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+  display: flex; 
+}
+
+.header_right li {
+  margin-left: 20px; 
+}
+
+/* Remove margin for the first item */
+.header_right li:first-child {
+  margin-left: 0;
+}
+
+/* Optional: Style for the images/icons */
+.header_right img {
+  vertical-align: middle; 
+  width: 24px; 
+}
+
